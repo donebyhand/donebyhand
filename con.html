@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="cookies/sty.css">
+  <link rel="icon" href="cookies/jicon.png">
+</head>
+<body>
+  <header>
+  <h1>Jellyfish Journal</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="inde.html">Home</a></li>
+      <li><a href="about.html">About Jellies</a></li>
+      <li><a href="spec.html">Species Overview</a></li>
+      <li><a href="gall.html">Gallery</a></li>
+      <li><a href="con.html">Contact</a></li>
+    </ul>
+  </nav>
+
+    <div class="container">
+    <form action="mailto:emh337@pitt.edu" method="post" enctype="text/plain">
+      <div class="contact-title">
+        <h2>Want to Know More? Contact us!</h2>
+      </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="FirstName" placeholder="First Name">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">  
+          <label for="lanme">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="LastName" placeholder="Last Name">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="pnumber">Phone Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="PhoneNumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="Email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="Email" placeholder="Email">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="learned">Did you learn something new?</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" name="Learned" placeholder="Yes">Yes
+          <input type="radio" name="Learned" placeholder="No">No
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+          <label for="Messgae">Message</label>
+        </div>
+        <div class="col-75">
+          <textarea name="concern" placeholder="Type Here" style="height: 200px">
+          </textarea>
+        </div>
+        </div>
+        <div class="row">
+        <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  
+
+<div>
+    <footer>
+    <p>Copyright &copy; Ella Hand 2024</p>
+  </footer>
+  </div>
+
+
+
+</body>
+</html>
